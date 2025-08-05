@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>The default page with TOC and sidebar</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Antonio Corbi's Home Page @github.io</a></li><li><a href="/blog/default-home-list-pages/">List all website's pages on the home page</a></li><li><a href="/blog/default/">The default page</a></li><li><a href="/blog/one-default-with-toc/">The default page with a TOC</a></li><li><a href="/blog/one-default-with-sidebar/">The default page with a sidebar</a></li><li><a href="/blog/one-default-doc/">The default page with TOC and sidebar</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Antonio Corbi's Home Page @github.io</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Antonio Corbi's Home Page @github.io</a></li><li><a href="/blog/default-home-list-pages/">List all website's pages on the home page</a></li><li><a href="/blog/default/">The default page</a></li><li><a href="/blog/one-default-with-toc/">The default page with a TOC</a></li><li><a href="/blog/one-default-with-sidebar/">The default page with a sidebar</a></li><li><a href="/blog/one-default-doc/">The default page with TOC and sidebar</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><article><div class="title"><h1>The default page with TOC and sidebar</h1></div><div class="toc"><div><div>Table of content</div><div>
+<ul>
+<li><a href="#one-e5bc3db0fd">Do you want to know more about one.el?</a></li>
+<li><a href="#one-eef2fd1fe0">Headline foo</a>
+<ul>
+<li><a href="#one-a47e797a6b">Headline bar</a></li>
+<li><a href="#one-c4d4ffaf8b">Headline baz</a></li>
+</ul>
+</li>
+</ul>
+</div></div></div><div><p>This page is rendered with the function <code class="one-hl one-hl-inline">one-default-doc</code> specified
+in the org property <code class="one-hl one-hl-inline">ONE</code>.
+</p>
+</div>
+
+<div><h2 id="one-e5bc3db0fd">Do you want to know more about one.el?</h2><div><p>Check the documentation at <a href="https://one.tonyaldon.com">https://one.tonyaldon.com</a>.
+</p>
+</div>
+</div>
+
+<div><h2 id="one-eef2fd1fe0">Headline foo</h2><div><h3 id="one-a47e797a6b">Headline bar</h3><div><p>Some content.
+</p>
+</div>
+</div>
+
+<div><h3 id="one-c4d4ffaf8b">Headline baz</h3><div><pre><code class="one-hl one-hl-block">tree</code></pre>
+
+<pre><code class="one-hl one-hl-results">.
+&#9500;&#9472;&#9472; assets
+&#9474;   &#9492;&#9472;&#9472; one.css
+&#9500;&#9472;&#9472; one.org
+&#9492;&#9472;&#9472; public
+    &#9500;&#9472;&#9472; blog
+    &#9474;   &#9500;&#9472;&#9472; default
+    &#9474;   &#9474;   &#9492;&#9472;&#9472; index.html
+    &#9474;   &#9500;&#9472;&#9472; default-home-list-pages
+    &#9474;   &#9474;   &#9492;&#9472;&#9472; index.html
+    &#9474;   &#9500;&#9472;&#9472; one-default-doc
+    &#9474;   &#9474;   &#9492;&#9472;&#9472; index.html
+    &#9474;   &#9500;&#9472;&#9472; one-default-with-sidebar
+    &#9474;   &#9474;   &#9492;&#9472;&#9472; index.html
+    &#9474;   &#9492;&#9472;&#9472; one-default-with-toc
+    &#9474;       &#9492;&#9472;&#9472; index.html
+    &#9500;&#9472;&#9472; index.html
+    &#9492;&#9472;&#9472; one.css
+
+8 directories, 9 files</code></pre>
+</div>
+</div>
+</div>
+
+
+<div class="nav"><a href="/blog/one-default-with-sidebar/">PREV</a><a href="/blog/one-default-with-toc/">RANDOM</a><a href="/nix/default/">NEXT</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>

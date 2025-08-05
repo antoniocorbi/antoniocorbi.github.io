@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Nix and NixOS things</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Antonio Corbi's Home Page @github.io</a></li><li><a href="/blog/default-home-list-pages/">List all website's pages on the home page</a></li><li><a href="/blog/default/">The default page</a></li><li><a href="/blog/one-default-with-toc/">The default page with a TOC</a></li><li><a href="/blog/one-default-with-sidebar/">The default page with a sidebar</a></li><li><a href="/blog/one-default-doc/">The default page with TOC and sidebar</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Antonio Corbi's Home Page @github.io</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Antonio Corbi's Home Page @github.io</a></li><li><a href="/blog/default-home-list-pages/">List all website's pages on the home page</a></li><li><a href="/blog/default/">The default page</a></li><li><a href="/blog/one-default-with-toc/">The default page with a TOC</a></li><li><a href="/blog/one-default-with-sidebar/">The default page with a sidebar</a></li><li><a href="/blog/one-default-doc/">The default page with TOC and sidebar</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><article><div class="title"><h1>Nix and NixOS things</h1></div><div><p>In this page I pretend to write things about <a href="https://nixos.org/manual/nix/stable">Nix</a> and <a href="https://nixos.org/">NixOS</a>.
+</p>
+</div>
+<div class="nav"><a href="/blog/one-default-doc/">PREV</a><a href="/blog/default/">RANDOM</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>
