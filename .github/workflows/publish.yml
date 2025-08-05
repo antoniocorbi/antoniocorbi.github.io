@@ -17,7 +17,7 @@ jobs:
         run: sudo apt install emacs-nox --yes
 
       - name: Build the site
-        run: ./build.sh && cp -a ./public/ .
+        run: ./build.sh
 
       - name: Publish content to Github pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
