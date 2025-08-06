@@ -8,6 +8,7 @@ on:
 
 jobs:
   publish:
+    name: Creating ubuntu-latest VM, install software and create web-page
     runs-on: ubuntu-latest
     steps:
       - name: Check out
