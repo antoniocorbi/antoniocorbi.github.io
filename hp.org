@@ -1,238 +1,20 @@
 # https://one.tonyaldon.com/docs/getting-started/
-* Antonio Corbi's Home Page @github.io
+# This is my homepage @github.io
+
+* Antonio Corbi's Homepage
 :PROPERTIES:
-:ONE: one-default-home
+:ONE: one-default-home-list-pages
 :CUSTOM_ID: /
 :END:
 
-This is the NEW ~one.el~ project:
+These pages represent things I want to remember and access them with
+one click.
 
-#+begin_example
-Antonio Corbi's homepage.
-#+end_example
+This web page has been created using [[https://tonyaldon.com][Tony Aldon]]'s [[https://one.tonyaldon.com][one]] /static site
+generator/ for Emacs.
 
 If you don't know how ~one.el~ works, you can check the documentation at
 https://one.tonyaldon.com.
-
-If you want to list all the pages on your website on the home page,
-check [[#/blog/default-home-list-pages/][List all website's pages on the home page]].
-
-* List all website's pages on the home page
-:PROPERTIES:
-:ONE: one-default-home-list-pages
-:CUSTOM_ID: /blog/default-home-list-pages/
-:END:
-
-This page is rendered with the default render function
-~one-default-home-list-pages~ specified in ~ONE~ org property which lists
-below all the pages on the website.  You can use it instead of
-~one-default-home~ for your home page.
-
-* The default page
-:PROPERTIES:
-:ONE: one-default
-:CUSTOM_ID: /blog/default/
-:END:
-
-This page is rendered with the default render function ~one-default~
-specified in ~ONE~ org property.
-
-** Do you want a table of content?
-
-As you can see, ~one-default~ doesn't add a table of content (TOC).  If
-you want a default render function that adds the TOC to the page you can
-use the render function ~one-default-with-toc~ presented in [[#/blog/one-default-with-toc/][The default
-page with a TOC]].
-
-** Headline foo
-*** Headline bar
-
-Some content.
-
-*** Headline baz
-
-#+BEGIN_SRC bash :results verbatim
-tree
-#+END_SRC
-
-#+RESULTS:
-#+begin_example
-.
-├── assets
-│   └── one.css
-├── one.org
-└── public
-    ├── blog
-    │   ├── default
-    │   │   └── index.html
-    │   ├── default-home-list-pages
-    │   │   └── index.html
-    │   ├── one-default-doc
-    │   │   └── index.html
-    │   ├── one-default-with-sidebar
-    │   │   └── index.html
-    │   └── one-default-with-toc
-    │       └── index.html
-    ├── index.html
-    └── one.css
-
-8 directories, 9 files
-#+end_example
-
-* The default page with a TOC
-:PROPERTIES:
-:ONE: one-default-with-toc
-:CUSTOM_ID: /blog/one-default-with-toc/
-:END:
-
-This page is rendered with the render function ~one-default-with-toc~
-specified in the org property ~ONE~.
-
-** Do you want a sidebar?
-
-Perhaps you want a sidebar listing all the pages on your website, as
-many modern documentation sites do.  If so, you can use the default
-render function ~one-default-with-sidebar~ presented in [[#/blog/one-default-with-sidebar/][The default page
-with a sidebar]].
-
-** Headline foo
-*** Headline bar
-
-Some content.
-
-*** Headline baz
-
-#+BEGIN_SRC bash :results verbatim
-tree
-#+END_SRC
-
-#+RESULTS:
-#+begin_example
-.
-├── assets
-│   └── one.css
-├── one.org
-└── public
-    ├── blog
-    │   ├── default
-    │   │   └── index.html
-    │   ├── default-home-list-pages
-    │   │   └── index.html
-    │   ├── one-default-doc
-    │   │   └── index.html
-    │   ├── one-default-with-sidebar
-    │   │   └── index.html
-    │   └── one-default-with-toc
-    │       └── index.html
-    ├── index.html
-    ├── nix
-    │   ├── default
-    │   │   └── index.html
-    │   └── defaultindex.html
-    └── one.css
-
-11 directories, 11 files
-#+end_example
-
-* The default page with a sidebar
-:PROPERTIES:
-:ONE: one-default-with-sidebar
-:CUSTOM_ID: /blog/one-default-with-sidebar/
-:END:
-
-This page is rendered with the render function ~one-default-with-sidebar~
-specified in the org property ~ONE~.
-
-** Do you want a sidebar and a TOC?
-
-Perhaps you want a sidebar listing all the pages on your website and a
-table of content, as many modern documentation sites do.  If so, you
-can use the default render function ~one-default-doc~ presented in [[#/blog/one-default-doc/][The
-default page with TOC and sidebar]].
-
-** Headline foo
-*** Headline bar
-
-Some content.
-
-*** Headline baz
-
-#+BEGIN_SRC bash :results verbatim
-tree
-#+END_SRC
-
-#+RESULTS:
-#+begin_example
-.
-├── assets
-│   └── one.css
-├── one.org
-└── public
-    ├── blog
-    │   ├── default
-    │   │   └── index.html
-    │   ├── default-home-list-pages
-    │   │   └── index.html
-    │   ├── one-default-doc
-    │   │   └── index.html
-    │   ├── one-default-with-sidebar
-    │   │   └── index.html
-    │   └── one-default-with-toc
-    │       └── index.html
-    ├── index.html
-    └── one.css
-
-8 directories, 9 files
-#+end_example
-
-* The default page with TOC and sidebar
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /blog/one-default-doc/
-:END:
-
-This page is rendered with the function ~one-default-doc~ specified
-in the org property ~ONE~.
-
-** Do you want to know more about one.el?
-
-Check the documentation at https://one.tonyaldon.com.
-
-** Headline foo
-*** Headline bar
-
-Some content.
-
-*** Headline baz
-
-#+BEGIN_SRC bash :results verbatim
-tree
-#+END_SRC
-
-#+RESULTS:
-#+begin_example
-.
-├── assets
-│   └── one.css
-├── one.org
-└── public
-    ├── blog
-    │   ├── default
-    │   │   └── index.html
-    │   ├── default-home-list-pages
-    │   │   └── index.html
-    │   ├── one-default-doc
-    │   │   └── index.html
-    │   ├── one-default-with-sidebar
-    │   │   └── index.html
-    │   └── one-default-with-toc
-    │       └── index.html
-    ├── index.html
-    └── one.css
-
-8 directories, 9 files
-#+end_example
-
 
 * Nix and NixOS things
 :PROPERTIES:
@@ -240,4 +22,12 @@ tree
 :CUSTOM_ID: /nix/default/
 :END:
 
-In this page I pretend to write things about [[https://nixos.org/manual/nix/stable][Nix]] and [[https://nixos.org/][NixOS]].
+In these pages I pretend to write things about [[https://nixos.org/manual/nix/stable][Nix]] and [[https://nixos.org/][NixOS]].
+
+* Emacs and Emacs-Lisp things
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /emacs/default/
+:END:
+
+In these pages I pretend to write things about [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://www.gnu.org/software/emacs/manual/eintr.html][Emacs-lisp]].
