@@ -24,6 +24,51 @@ https://one.tonyaldon.com.
 
 In these pages I pretend to write things about [[https://nixos.org/manual/nix/stable][Nix]] and [[https://nixos.org/][NixOS]].
 
+** About flakes
+1. [[https://nixos-and-flakes.thiscute.world/][NixOS & Flakes Book]]
+2. [[https://serokell.io/blog/practical-nix-flakes][Practical Nix Flakes]]
+3. [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag flake's blog entry]]
+4. [[https://snowytrees.dev/blog/nixos-config/][NixOS Configuration with Flakes]]
+
+** Manuals
+1. [[https://nixos.org/manual/nixos/stable][NixOS]]
+2. [[https://nixos.org/manual/nix/stable][Nix]]
+3. [[https://learnxinyminutes.com/docs/nix/][Learn Nix in Y Minutes]]
+4. [[https://nixos.org/manual/nixpkgs/stable][Nixpkgs]]
+5. [[https://nixos.wiki/wiki/Cheatsheet][CheatSheet]]
+6. [[https://nixos.org/guides/nix-pills/][Nix Pills]]
+7. [[https://discourse.nixos.org/][Discourse]]
+
+** Home-Manager
+1. [[https://github.com/nix-community/home-manager][Home Manager's home]]
+2. [[https://nix-community.github.io/home-manager/][Manual]]
+3. [[https://nix-community.github.io/home-manager/options.xhtml][Options]]
+4. [[https://home-manager-options.extranix.com/][Option Search]]
+5. [[https://nix-community.github.io/stylix/][Stylix]]
+
+** Development
+1. [[https://nix.dev/][Nix Dev]]
+2. [[https://nixos.wiki/][Nixos Wiki]]
+3. [[https://nix-builtins-search.extranix.com/][Builtins Search]]
+4. [[https://teu5us.github.io/nix-lib.html][Nix (builtins) & Nixpkgs (lib) Functions]]
+5. [[https://github.com/nix-community/awesome-nix][Awesome Nix]]
+6. [[https://noogle.dev/][Noogle]]
+7. [[https://zero-to-nix.com/][Zero to Nix]]
+8. [[https://mynixos.com/][My Nixos]]
+
+** Search
+1. [[https://search.nixos.org/packages][Packages]]
+2. [[https://search.nixos.org/options][Options]]
+3. [[https://search.nixos.org/flakes][Flakes]]
+4. [[https://nur.nix-community.org/][NUR]]
+
+** Configurations
+1. [[https://github.com/Misterio77][Misterio77]]
+2. [[https://github.com/NapoleonWils0n/nixos-dotfiles][NapoleonWils0n]]
+3. [[https://github.com/librephoenix/nixos-config][Librephoenix]]
+4. [[https://github.com/sioodmy/dotfiles/tree/main][Sioodmy]]
+5. [[https://www.zaney.org/wiki/zaneyos-2.0/][ZaneyOS]]
+
 * Emacs and Emacs-Lisp things
 :PROPERTIES:
 :ONE: one-default-doc
