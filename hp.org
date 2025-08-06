@@ -13,8 +13,8 @@ one click.
 This web page has been created using [[https://tonyaldon.com][Tony Aldon]]'s [[https://one.tonyaldon.com][one]] /static site
 generator/ for Emacs.
 
-If you don't know how ~one.el~ works, you can check the documentation at
-https://one.tonyaldon.com.
+Tony Aldon's ~one~ package leverages [[https://orgmode.org/][Org Mode]] to easily publish a blog
+from a single ~org file~. Nothing more, nothing less.
 
 * Nix and NixOS things
 :PROPERTIES:
