@@ -24,7 +24,7 @@ from a single ~org file~. Nothing more, nothing less.
 
 In these pages I pretend to write things about [[https://nixos.org/manual/nix/stable][Nix]] and [[https://nixos.org/][NixOS]].
 
-** About flakes
+** Flakes
 1. [[https://nixos-and-flakes.thiscute.world/][NixOS & Flakes Book]]
 2. [[https://serokell.io/blog/practical-nix-flakes][Practical Nix Flakes]]
 3. [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag flake's blog entry]]
@@ -76,6 +76,59 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 :END:
 
 In these pages I pretend to write things about [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://www.gnu.org/software/emacs/manual/eintr.html][Emacs-lisp]].
+
+* Rust
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /rust/default/
+:END:
+
+** Language
+1. [[http://www.rust-lang.org/][Homepage]]
+2. [[https://play.rust-lang.org/][Online compiler]]
+3. [[https://releases.rs/][Releases]]
+
+** Docs
+1. [[https://doc.rust-lang.org/stable/book/index.html][The Book]]
+2. [[https://doc.rust-lang.org/std/][Standard lib book]]
+3. [[https://rust-lang-nursery.github.io/rust-cookbook/][Rust Cookbook]]
+4. [[https://doc.rust-lang.org/stable/rust-by-example/][Rust by example]]
+5. [[https://lborb.github.io/book/title-page.html][The little book of rust books]]
+6. [[https://rust-lang.github.io/async-book/][Async book]]
+7. [[https://danielkeep.github.io/tlborm/book/index.html][The Little Book of Rust Macros]]
+8. [[https://doc.rust-lang.org/nomicon/][Rustonomicon]]
+9. [[https://doc.rust-lang.org/unstable-book/][Unstable book]]
+10. [[https://doc.rust-lang.org/reference/][The language reference]]
+11. [[https://doc.rust-lang.org/stable/edition-guide/][The edition guide]]
+12. [[http://npf.io/2014/08/intro-to-toml/][Introduction to TOML]]
+
+** Tools
+1. [[https://rust-lang.github.io/rustup/][Rustup]]
+2. [[https://doc.rust-lang.org/cargo/][Cargo]]
+3. [[https://doc.rust-lang.org/stable][Rustdoc]]
+
+** Resources
+1. [[https://lib.rs/][Index of rust libraries and applications]]
+2. [[https://crates.io/][Crates IO]]
+3. [[https://cheats.rs/][Cheat sheet]]
+4. [[https://google.github.io/comprehensive-rust/][Comprehensive rust]]
+5. [[https://rust-lang.github.io/api-guidelines/][Rust API guidelines]]
+
+** Patterns
+1. [[https://rust-unofficial.github.io/patterns/][Rust Design Patterns]]
+2. [[https://github.com/fadeevab/design-patterns-rust][GOF examples in Rust]]
+
+* Btrfs
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /btrfs/default/
+:END:
+
+** Some useful links
+1. [[https://btrfs.readthedocs.io/en/latest/][The docs]]
+2. [[https://christitus.com/btrfs-guide/][Chris Titus's BTRFS guide]]
+3. [[https://www.youtube.com/watch?v=uD6u5_tgaeE][Last Dragon's YT video]]
+4. [[https://linuxhint.com/btrfs-filesystem-mount-options/][BTRFS mount options]]
 
 * Utilities
 :PROPERTIES:
