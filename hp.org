@@ -31,3 +31,15 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 :END:
 
 In these pages I pretend to write things about [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://www.gnu.org/software/emacs/manual/eintr.html][Emacs-lisp]].
+
+* Utilities
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /utilities/default/
+:END:
+
+1. [[https://devdocs.io][devdocs]]
+2. [[https://devhints.io][devhints]]
+3. [[https://dashboardicons.com][dashboard icons]]
+4. [[https://fontawesome.com/][fontawesome]]
+5. [[https://www.nerdfonts.com/][nerdfonts]]
