@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Emacs and Emacs-Lisp things</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li><li><a href="/emacs/default/">Emacs and Emacs-Lisp things</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Antonio Corbi's Homepage</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li><li><a href="/emacs/default/">Emacs and Emacs-Lisp things</a></li></ul></div><article><div class="title"><h1>Emacs and Emacs-Lisp things</h1></div><div><p>In these pages I pretend to write things about <a href="https://www.gnu.org/software/emacs/">Emacs</a> and <a href="https://www.gnu.org/software/emacs/manual/eintr.html">Emacs-lisp</a>.
+</p>
+</div>
+<div class="nav"><a href="/nix/default/">PREV</a><a href="/nix/default/">RANDOM</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>
