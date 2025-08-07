@@ -69,26 +69,34 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 4. [[https://github.com/sioodmy/dotfiles/tree/main][Sioodmy]]
 5. [[https://www.zaney.org/wiki/zaneyos-2.0/][ZaneyOS]]
 
-* Emacs and Emacs-Lisp things
+* Editors
 :PROPERTIES:
 :ONE: one-default-doc
-:CUSTOM_ID: /emacs/default/
+:CUSTOM_ID: /editors/default/
 :END:
 
-In these pages I pretend to write things about [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://www.gnu.org/software/emacs/manual/eintr.html][Emacs-lisp]].
+** Emacs
+1. [[https://www.gnu.org/software/emacs/][Homepage]]
 
-* Rust
+** Zed
+1. [[https://zed.dev/][Homepage]]
+
+** Helix
+1. [[https://helix-editor.com/][Homepage]]
+
+* Programming languages
 :PROPERTIES:
 :ONE: one-default-doc
-:CUSTOM_ID: /rust/default/
+:CUSTOM_ID: /languages/default/
 :END:
 
-** Language
+** Rust
+*** Language
 1. [[http://www.rust-lang.org/][Homepage]]
 2. [[https://play.rust-lang.org/][Online compiler]]
 3. [[https://releases.rs/][Releases]]
 
-** Docs
+*** Docs
 1. [[https://doc.rust-lang.org/stable/book/index.html][The Book]]
 2. [[https://doc.rust-lang.org/std/][Standard lib book]]
 3. [[https://rust-lang-nursery.github.io/rust-cookbook/][Rust Cookbook]]
@@ -102,21 +110,24 @@ In these pages I pretend to write things about [[https://www.gnu.org/software/em
 11. [[https://doc.rust-lang.org/stable/edition-guide/][The edition guide]]
 12. [[http://npf.io/2014/08/intro-to-toml/][Introduction to TOML]]
 
-** Tools
+*** Tools
 1. [[https://rust-lang.github.io/rustup/][Rustup]]
 2. [[https://doc.rust-lang.org/cargo/][Cargo]]
 3. [[https://doc.rust-lang.org/stable][Rustdoc]]
 
-** Resources
+*** Resources
 1. [[https://lib.rs/][Index of rust libraries and applications]]
 2. [[https://crates.io/][Crates IO]]
 3. [[https://cheats.rs/][Cheat sheet]]
 4. [[https://google.github.io/comprehensive-rust/][Comprehensive rust]]
 5. [[https://rust-lang.github.io/api-guidelines/][Rust API guidelines]]
 
-** Patterns
+*** Patterns
 1. [[https://rust-unofficial.github.io/patterns/][Rust Design Patterns]]
 2. [[https://github.com/fadeevab/design-patterns-rust][GOF examples in Rust]]
+
+** Emacs-Lisp
+1. [[https://www.gnu.org/software/emacs/manual/eintr.html][Manual]]
 
 * Btrfs
 :PROPERTIES:
@@ -129,6 +140,7 @@ In these pages I pretend to write things about [[https://www.gnu.org/software/em
 2. [[https://christitus.com/btrfs-guide/][Chris Titus's BTRFS guide]]
 3. [[https://www.youtube.com/watch?v=uD6u5_tgaeE][Last Dragon's YT video]]
 4. [[https://linuxhint.com/btrfs-filesystem-mount-options/][BTRFS mount options]]
+
 
 * Utilities
 :PROPERTIES:
