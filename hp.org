@@ -16,6 +16,219 @@ generator/ for Emacs.
 Tony Aldon's ~one~ package leverages [[https://orgmode.org/][Org Mode]] to easily publish a blog
 from a single ~org file~. Nothing more, nothing less.
 
+* Utilities
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /utilities/default/
+:END:
+
+1. [[https://devdocs.io][devdocs]]
+2. [[https://devhints.io][devhints]]
+3. [[https://dashboardicons.com][dashboard icons]]
+4. [[https://fontawesome.com/][fontawesome]]
+5. [[https://www.nerdfonts.com/][nerdfonts]]
+* Document composers
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /documentcomp/default/
+:END:
+
+** Latex
+1. [[https://latex.net/][The LaTeX Network]]
+2. [[https://www.latex-project.org/][The Latex Project]]
+3. [[https://tikz.org/][Tikz]]
+4. [[https://tikz.net/][Graphics with TikZ in LaTeX]]
+5. [[https://diagrams.janosh.dev/][Tikz diagrams]]
+
+** Typst
+1. [[https://typst.app/][Homepage]]
+2. [[https://sitandr.github.io/typst-examples-book/book][Typst Examples Book]]
+3. [[https://diagrams.janosh.dev/][Cetz diagrams]]
+4. [[https://github.com/typst/typst][Project's Github]]
+
+* Build system generators
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /buildsystems/default/
+:END:
+
+** Cmake
+1. [[http://www.cmake.org/][Homepage]]
+2. [[https://cmake.org/documentation/][Docs]]
+
+** Meson
+1. [[http://mesonbuild.com][Homepage]]
+2. [[http://mesonbuild.com/Manual.html][Manual]]
+3. [[http://mesonbuild.com/Reference-manual.html][Reference Manual]]
+
+** Autotools
+1. [[http://www.gnu.org/software/autoconf/manual/autoconf.html][Autoconf]]
+2. [[https://www.gnu.org/software/automake/][Automake]]
+3. [[http://www.gnu.org/software/libtool/manual/libtool.html][Libtool]]
+
+* Build automation tools
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /buildautomation/default/
+:END:
+
+1. [[http://www.gnu.org/software/make/manual/make.html][Make]]
+2. [[https://ninja-build.org/manual.html][Ninja]]
+3. [[https://github.com/casey/just][Just]]
+
+* Programming languages
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /languages/default/
+:END:
+
+** Rust
+*** Language
+1. [[http://www.rust-lang.org/][Homepage]]
+2. [[https://play.rust-lang.org/][Online compiler]]
+3. [[https://releases.rs/][Releases]]
+
+*** Docs
+1. [[https://doc.rust-lang.org/stable/book/index.html][The Book]]
+2. [[https://doc.rust-lang.org/std/][Standard lib book]]
+3. [[https://rust-lang-nursery.github.io/rust-cookbook/][Rust Cookbook]]
+4. [[https://doc.rust-lang.org/stable/rust-by-example/][Rust by example]]
+5. [[https://lborb.github.io/book/title-page.html][The little book of rust books]]
+6. [[https://rust-lang.github.io/async-book/][Async book]]
+7. [[https://danielkeep.github.io/tlborm/book/index.html][The Little Book of Rust Macros]]
+8. [[https://doc.rust-lang.org/nomicon/][Rustonomicon]]
+9. [[https://doc.rust-lang.org/unstable-book/][Unstable book]]
+10. [[https://doc.rust-lang.org/reference/][The language reference]]
+11. [[https://doc.rust-lang.org/stable/edition-guide/][The edition guide]]
+12. [[http://npf.io/2014/08/intro-to-toml/][Introduction to TOML]]
+
+*** Tools
+1. [[https://rust-lang.github.io/rustup/][Rustup]]
+2. [[https://doc.rust-lang.org/cargo/][Cargo]]
+3. [[https://doc.rust-lang.org/stable][Rustdoc]]
+
+*** Resources
+1. [[https://lib.rs/][Index of rust libraries and applications]]
+2. [[https://crates.io/][Crates IO]]
+3. [[https://cheats.rs/][Cheat sheet]]
+4. [[https://google.github.io/comprehensive-rust/][Comprehensive rust]]
+5. [[https://rust-lang.github.io/api-guidelines/][Rust API guidelines]]
+
+*** Patterns
+1. [[https://rust-unofficial.github.io/patterns/][Rust Design Patterns]]
+2. [[https://github.com/fadeevab/design-patterns-rust][GOF examples in Rust]]
+
+** Emacs-Lisp
+1. [[https://www.gnu.org/software/emacs/manual/eintr.html][Introduction to Programming in Emacs Lisp]]
+2. [[http://learnxinyminutes.com/docs/es-es/elisp-es/][Learn elisp in Y Minutes]]
+3. [[https://www.gnu.org/software/emacs/manual/elisp.html][Manual]]
+4. [[https://www.emacswiki.org/emacs/ElispCookbook][EmacsWiki: Elisp Cookbook]]
+5. [[http://xahlee.info/emacs/emacs/practical_elisp.html][Practical Emacs Lisp]]
+6. [[https://blog.aaronbieber.com/2016/08/07/getting-started-with-emacs-lisp.html][Getting Started With Emacs Lisp]]
+
+** Haskell
+1. [[https://www.haskell.org/][Homepage]]
+2. [[https://planet.haskell.org/][Planet Haskell]]
+3. [[http://en.wikibooks.org/wiki/Haskell][Haskell WikiBook]]
+4. [[http://book.realworldhaskell.org/read/][Real World Haskell]]
+5. [[http://learnyouahaskell.com/][Learn You a Haskell]]
+6. [[http://www.haskell.org/hoogle/][Hoogle]]
+
+** D
+*** Dlang
+1. [[https://dlang.org][Homepage]]
+1. [[https://dlang.org/spec/spec.html][Spec]]
+2. [[https://run.dlang.io/][Online compiler]]
+3. [[https://forum.dlang.org/][Forums]]
+4. [[https://dlang.org/changelog/pending.html][Changelog]]
+
+*** OpenD
+1. [[https://opendlang.org/index.html][Homepage]]
+2. [[https://dpldocs.info/this-week-in-arsd/Blog.html][Blog]]
+
+** Vala
+1. [[https://vala.dev/][Homepage]]
+2. [[https://gnome.pages.gitlab.gnome.org/vala/manual/index.html][Vala Reference Manual]]
+3. [[https://lwildberg.pages.gitlab.gnome.org/vala-tutorial/][Vala Documentation]]
+
+** Ada
+1. [[https://ada-lang.io/][Homepage]]
+2. [[https://www.adacore.com/][Adacore]]
+3. [[https://en.wikibooks.org/wiki/Ada_Programming][Ada programming book]]
+4. [[http://ada-auth.org/][Ada Conformity Assessment Authority]]
+5. [[http://www.adapower.com/][AdaPower - The Home of Ada]]
+6. [[https://gcc.gnu.org/wiki/GNAT][GNAT status]]
+
+** Pascal
+1. [[https://freepascal.org/][Free Pascal]]
+
+** Zig
+1. [[https://ziglang.org/][Homepage]]
+
+** Nim
+1. [[https://nim-lang.org/][Homepage]]
+
+** Julia
+1. [[https://julialang.org/][Homepage]]
+
+* Editors
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /editors/default/
+:END:
+
+** Emacs
+*** Useful links
+1. [[https://www.gnu.org/software/emacs/][Homepage]]
+2. [[https://www.masteringemacs.org][Mastering Emacs]]
+3. [[http://emacs-fu.blogspot.com/][Emacs-Fu]]
+4. [[http://emacsrocks.com/][Emacs Rocks]]
+5. [[http://pragmaticemacs.com/][Pragmatic Emacs]]
+6. [[http://wikemacs.org/wiki/Main_Page][Wikemacs]]
+7. [[http://whattheemacsd.com/][WhatTheEmacsd]]
+
+*** Org-mode
+1. [[https://orgmode.org/][Homepage]]
+2. [[http://orgmode.org/manual/index.html][Manual]]
+3. [[http://orgmode.org/worg][Org-Mode Community!]]
+
+*** Themes
+1. [[https://emacsthemes.com/][A GNU Emacs Themes Gallery]]
+2. [[https://pawelbx.github.io/emacs-theme-gallery/][Emacs Theme Gallery]]
+3. [[https://github.com/hlissner/emacs-doom-themes][Doom Themes]]
+4. [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Tomorrow themes]]
+5. [[https://github.com/belak/base16-emacs][Emacs base16 themes]] from [[https://github.com/chriskempson/base16][Chris Kempson's base16]]
+
+** Zed
+1. [[https://zed.dev/][Homepage]]
+
+** Helix
+1. [[https://helix-editor.com/][Homepage]]
+
+* GNU/Linux
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /gnulinux/default/
+:END:
+
+** Kernel
+1. [[https://www.kernel.org][Homepage]]
+2. [[https://docs.kernel.org/][Docs]]
+3. [[https://www.wiki.kernel.org/][Wikis]]
+
+** Btrfs
+1. [[https://btrfs.readthedocs.io/en/latest/][The docs]]
+2. [[https://christitus.com/btrfs-guide/][Chris Titus's BTRFS guide]]
+3. [[https://www.youtube.com/watch?v=uD6u5_tgaeE][Last Dragon's YT video]]
+4. [[https://linuxhint.com/btrfs-filesystem-mount-options/][BTRFS mount options]]
+
+** Git
+1. [[http://git-scm.com/][Homepage]]
+2. [[https://git-lfs.github.com/][Git LFS]]
+3. [[http://githooks.com/][Git Hooks]]
+4. [[http://githowto.com/][Git Howto]]
+5. [[http://git-scm.com/book][The Book]]
+
 * Nix and NixOS things
 :PROPERTIES:
 :ONE: one-default-doc
@@ -68,88 +281,3 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 3. [[https://github.com/librephoenix/nixos-config][Librephoenix]]
 4. [[https://github.com/sioodmy/dotfiles/tree/main][Sioodmy]]
 5. [[https://www.zaney.org/wiki/zaneyos-2.0/][ZaneyOS]]
-
-* Editors
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /editors/default/
-:END:
-
-** Emacs
-1. [[https://www.gnu.org/software/emacs/][Homepage]]
-
-** Zed
-1. [[https://zed.dev/][Homepage]]
-
-** Helix
-1. [[https://helix-editor.com/][Homepage]]
-
-* Programming languages
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /languages/default/
-:END:
-
-** Rust
-*** Language
-1. [[http://www.rust-lang.org/][Homepage]]
-2. [[https://play.rust-lang.org/][Online compiler]]
-3. [[https://releases.rs/][Releases]]
-
-*** Docs
-1. [[https://doc.rust-lang.org/stable/book/index.html][The Book]]
-2. [[https://doc.rust-lang.org/std/][Standard lib book]]
-3. [[https://rust-lang-nursery.github.io/rust-cookbook/][Rust Cookbook]]
-4. [[https://doc.rust-lang.org/stable/rust-by-example/][Rust by example]]
-5. [[https://lborb.github.io/book/title-page.html][The little book of rust books]]
-6. [[https://rust-lang.github.io/async-book/][Async book]]
-7. [[https://danielkeep.github.io/tlborm/book/index.html][The Little Book of Rust Macros]]
-8. [[https://doc.rust-lang.org/nomicon/][Rustonomicon]]
-9. [[https://doc.rust-lang.org/unstable-book/][Unstable book]]
-10. [[https://doc.rust-lang.org/reference/][The language reference]]
-11. [[https://doc.rust-lang.org/stable/edition-guide/][The edition guide]]
-12. [[http://npf.io/2014/08/intro-to-toml/][Introduction to TOML]]
-
-*** Tools
-1. [[https://rust-lang.github.io/rustup/][Rustup]]
-2. [[https://doc.rust-lang.org/cargo/][Cargo]]
-3. [[https://doc.rust-lang.org/stable][Rustdoc]]
-
-*** Resources
-1. [[https://lib.rs/][Index of rust libraries and applications]]
-2. [[https://crates.io/][Crates IO]]
-3. [[https://cheats.rs/][Cheat sheet]]
-4. [[https://google.github.io/comprehensive-rust/][Comprehensive rust]]
-5. [[https://rust-lang.github.io/api-guidelines/][Rust API guidelines]]
-
-*** Patterns
-1. [[https://rust-unofficial.github.io/patterns/][Rust Design Patterns]]
-2. [[https://github.com/fadeevab/design-patterns-rust][GOF examples in Rust]]
-
-** Emacs-Lisp
-1. [[https://www.gnu.org/software/emacs/manual/eintr.html][Manual]]
-
-* Btrfs
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /btrfs/default/
-:END:
-
-** Some useful links
-1. [[https://btrfs.readthedocs.io/en/latest/][The docs]]
-2. [[https://christitus.com/btrfs-guide/][Chris Titus's BTRFS guide]]
-3. [[https://www.youtube.com/watch?v=uD6u5_tgaeE][Last Dragon's YT video]]
-4. [[https://linuxhint.com/btrfs-filesystem-mount-options/][BTRFS mount options]]
-
-
-* Utilities
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /utilities/default/
-:END:
-
-1. [[https://devdocs.io][devdocs]]
-2. [[https://devhints.io][devhints]]
-3. [[https://dashboardicons.com][dashboard icons]]
-4. [[https://fontawesome.com/][fontawesome]]
-5. [[https://www.nerdfonts.com/][nerdfonts]]
