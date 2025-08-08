@@ -195,9 +195,14 @@ from a single ~org file~. Nothing more, nothing less.
 *** Themes
 1. [[https://emacsthemes.com/][A GNU Emacs Themes Gallery]]
 2. [[https://pawelbx.github.io/emacs-theme-gallery/][Emacs Theme Gallery]]
-3. [[https://github.com/hlissner/emacs-doom-themes][Doom Themes]]
-4. [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Tomorrow themes]]
-5. [[https://github.com/belak/base16-emacs][Emacs base16 themes]] from [[https://github.com/chriskempson/base16][Chris Kempson's base16]]
+3. [[https://github.com/ogdenwebb/emacs-kaolin-themes][Kaolin themes]]
+4. Prot's themes:
+   1. [[https://github.com/protesilaos/doric-themes][Doric]]
+   2. [[https://protesilaos.com/emacs/ef-themes][Ef]]
+   3. [[https://protesilaos.com/emacs/modus-themes][Modus]]
+5. [[https://github.com/hlissner/emacs-doom-themes][Doom Themes]]
+6. [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Tomorrow themes]]
+7. [[https://github.com/belak/base16-emacs][Emacs base16 themes]] from [[https://github.com/chriskempson/base16][Chris Kempson's base16]]
 
 ** Zed
 1. [[https://zed.dev/][Homepage]]
