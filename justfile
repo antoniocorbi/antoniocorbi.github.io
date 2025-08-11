@@ -22,7 +22,7 @@ alias b := build
 # Upload to github
 @push:
     echo Pushing to github
-    git push -u github one
+    git push -u origin one
 
 # Serve
 @serve:
