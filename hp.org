@@ -234,6 +234,9 @@ from a single ~org file~. Nothing more, nothing less.
 3. [[http://githooks.com/][Git Hooks]]
 4. [[http://githowto.com/][Git Howto]]
 5. [[http://git-scm.com/book][The Book]]
+** Terminal multiplexers
+1. [[https://github.com/tmux/tmux/wiki][Tmux]]
+2. [[https://zellij.dev/documentation/][Zellij]]
 
 * Nix and NixOS things
 :PROPERTIES:
