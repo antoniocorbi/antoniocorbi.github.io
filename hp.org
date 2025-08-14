@@ -181,11 +181,12 @@ from a single ~org file~. Nothing more, nothing less.
 *** Useful links
 1. [[https://www.gnu.org/software/emacs/][Homepage]]
 2. [[https://www.masteringemacs.org][Mastering Emacs]]
-3. [[http://emacs-fu.blogspot.com/][Emacs-Fu]]
-4. [[http://emacsrocks.com/][Emacs Rocks]]
-5. [[http://pragmaticemacs.com/][Pragmatic Emacs]]
-6. [[http://wikemacs.org/wiki/Main_Page][Wikemacs]]
-7. [[http://whattheemacsd.com/][WhatTheEmacsd]]
+3. [[http://xahlee.info/emacs/index.html][Xah Lee (all about) Emacs pages]]
+4. [[http://emacs-fu.blogspot.com/][Emacs-Fu]]
+5. [[http://emacsrocks.com/][Emacs Rocks]]
+6. [[http://pragmaticemacs.com/][Pragmatic Emacs]]
+7. [[http://wikemacs.org/wiki/Main_Page][Wikemacs]]
+8. [[http://whattheemacsd.com/][WhatTheEmacsd]]
 
 *** Org-mode
 1. [[https://orgmode.org/][Homepage]]
