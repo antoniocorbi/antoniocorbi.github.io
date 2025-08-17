@@ -45,6 +45,7 @@ from a single ~org file~. Nothing more, nothing less.
 2. [[https://sitandr.github.io/typst-examples-book/book][Typst Examples Book]]
 3. [[https://diagrams.janosh.dev/][Cetz diagrams]]
 4. [[https://github.com/typst/typst][Project's Github]]
+5. [[https://myriad-dreamin.github.io/tinymist/][Tinymist docs]]
 
 * Build system generators
 :PROPERTIES:
