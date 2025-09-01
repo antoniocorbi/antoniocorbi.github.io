@@ -107,6 +107,7 @@ from a single ~org file~. Nothing more, nothing less.
 1. [[https://rust-lang.github.io/rustup/][Rustup]]
 2. [[https://doc.rust-lang.org/cargo/][Cargo]]
 3. [[https://doc.rust-lang.org/stable][Rustdoc]]
+4. [[https://rust-script.org/][rust-script]]
 
 *** Resources
 1. [[https://lib.rs/][Index of rust libraries and applications]]
