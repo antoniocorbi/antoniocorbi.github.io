@@ -253,6 +253,7 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 2. [[https://serokell.io/blog/practical-nix-flakes][Practical Nix Flakes]]
 3. [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag flake's blog entry]]
 4. [[https://snowytrees.dev/blog/nixos-config/][NixOS Configuration with Flakes]]
+5. [[https://snowytrees.dev/blog/nixos-config/][SnowyTrees NixOS Configuration with Flakes]]
 
 ** Manuals
 1. [[https://nixos.org/manual/nixos/stable][NixOS]]
@@ -285,6 +286,14 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 2. [[https://search.nixos.org/options][Options]]
 3. [[https://search.nixos.org/flakes][Flakes]]
 4. [[https://nur.nix-community.org/][NUR]]
+
+** Youtube channels and blogs
+1. Librephoenix: [[https://www.youtube.com/channel/UCeZyoDTk0J-UPhd7MUktexw][YT]], [[https://github.com/librephoenix][GH]].
+2. [[https://www.youtube.com/@vimjoyer][Vimjoyer]]
+3. [[https://www.youtube.com/@m3tam3re][Sascha Koenig (m3tam3re)]]
+4. [[https://www.youtube.com/@hackerstolz][Hackerstolz]]
+5. [[https://www.youtube.com/@ChrisMcDonough][Chris McDonough]]
+6. [[https://ayats.org/][Fernando Ayats blog]]
 
 ** Configurations
 1. [[https://github.com/Misterio77][Misterio77]]
