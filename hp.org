@@ -42,10 +42,11 @@ from a single ~org file~. Nothing more, nothing less.
 
 ** Typst
 1. [[https://typst.app/][Homepage]]
-2. [[https://sitandr.github.io/typst-examples-book/book][Typst Examples Book]]
-3. [[https://diagrams.janosh.dev/][Cetz diagrams]]
-4. [[https://github.com/typst/typst][Project's Github]]
-5. [[https://myriad-dreamin.github.io/tinymist/][Tinymist docs]]
+2. [[https://typst.app/universe/][Universe]]
+3. [[https://sitandr.github.io/typst-examples-book/book][Typst Examples Book]]
+4. [[https://diagrams.janosh.dev/][Cetz diagrams]]
+5. [[https://github.com/typst/typst][Project's Github]]
+6. [[https://myriad-dreamin.github.io/tinymist/][Tinymist docs]]
 
 * Build system generators
 :PROPERTIES:
