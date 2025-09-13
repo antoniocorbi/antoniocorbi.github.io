@@ -189,7 +189,6 @@ from a single ~org file~. Nothing more, nothing less.
 5. [[http://emacsrocks.com/][Emacs Rocks]]
 6. [[http://pragmaticemacs.com/][Pragmatic Emacs]]
 7. [[http://wikemacs.org/wiki/Main_Page][Wikemacs]]
-8. [[http://whattheemacsd.com/][WhatTheEmacsd]]
 
 *** Org-mode
 1. [[https://orgmode.org/][Homepage]]
