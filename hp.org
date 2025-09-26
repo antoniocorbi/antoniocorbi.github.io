@@ -296,7 +296,7 @@ In these pages I pretend to write things about [[https://nixos.org/manual/nix/st
 5. [[https://www.youtube.com/@ChrisMcDonough][Chris McDonough]]
 6. [[https://ayats.org/][Fernando Ayats blog]]
 7. [[https://www.youtube.com/@tony-btw][Tony-btw]]
-   - His [[https://www.tonybtw.com/][homepage]]
+   - His [[https://www.tonybtw.com/][homepage]].
    - Take a look his [[https://www.youtube.com/watch?v=2QjzI5dXwDY][video]] about installing NixOS from scratch.
    - [[https://www.youtube.com/watch?v=v5RK3oNRiNY][Start using Flakes]].
 
