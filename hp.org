@@ -27,6 +27,25 @@ from a single ~org file~. Nothing more, nothing less.
 3. [[https://dashboardicons.com][dashboard icons]]
 4. [[https://fontawesome.com/][fontawesome]]
 5. [[https://www.nerdfonts.com/][nerdfonts]]
+* Wayland compositors and tools
+:PROPERTIES:
+:ONE: one-default-doc
+:CUSTOM_ID: /wayland/default/
+:END:
+
+- Compositors:
+  1. [[https://github.com/YaLTeR/niri][Niri]]
+  2. [[http://swaywm.org/][Sway]], [[https://github.com/WillPower3309/swayfx][Swayfx]]
+  3. [[https://github.com/DreamMaoMao/mangowc][Mangowc]]
+  4. [[https://hypr.land/][Hyprland]]
+- Bars:
+  1. [[https://github.com/Alexays/Waybar][Waybar]]
+  2. [[https://github.com/noctalia-dev/noctalia-shell][Noctalia shell]]
+  3. [[https://github.com/AvengeMedia/DankMaterialShell][DankMaterial shell]]
+  4. [[https://github.com/caelestia-dots/shell][Caelestia shell]]
+  5. [[https://github.com/debuggyo/Exo][Exo]]
+- Resources:
+  1. [[https://github.com/natpen/awesome-wayland][Awesome wayland]]
 * Document composers
 :PROPERTIES:
 :ONE: one-default-doc
