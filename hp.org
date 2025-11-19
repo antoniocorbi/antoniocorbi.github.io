@@ -24,9 +24,10 @@ from a single ~org file~. Nothing more, nothing less.
 
 1. [[https://devdocs.io][devdocs]]
 2. [[https://devhints.io][devhints]]
-3. [[https://dashboardicons.com][dashboard icons]]
-4. [[https://fontawesome.com/][fontawesome]]
-5. [[https://www.nerdfonts.com/][nerdfonts]]
+3. [[https://codewiki.google/][Code Wiki]]
+4. [[https://dashboardicons.com][dashboard icons]]
+5. [[https://fontawesome.com/][fontawesome]]
+6. [[https://www.nerdfonts.com/][nerdfonts]]
 * Wayland compositors and tools
 :PROPERTIES:
 :ONE: one-default-doc
