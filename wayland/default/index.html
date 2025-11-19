@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Wayland compositors and tools</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/utilities/default/">Utilities</a></li><li><a href="/wayland/default/">Wayland compositors and tools</a></li><li><a href="/documentcomp/default/">Document composers</a></li><li><a href="/buildsystems/default/">Build system generators</a></li><li><a href="/buildautomation/default/">Build automation tools</a></li><li><a href="/languages/default/">Programming languages</a></li><li><a href="/editors/default/">Editors</a></li><li><a href="/gnulinux/default/">GNU/Linux</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Antonio Corbi's Homepage</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/utilities/default/">Utilities</a></li><li><a href="/wayland/default/">Wayland compositors and tools</a></li><li><a href="/documentcomp/default/">Document composers</a></li><li><a href="/buildsystems/default/">Build system generators</a></li><li><a href="/buildautomation/default/">Build automation tools</a></li><li><a href="/languages/default/">Programming languages</a></li><li><a href="/editors/default/">Editors</a></li><li><a href="/gnulinux/default/">GNU/Linux</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><article><div class="title"><h1>Wayland compositors and tools</h1></div><div><ul><li><p>Compositors:
+</p>
+<ol><li><p><a href="https://github.com/YaLTeR/niri">Niri</a>
+</p>
+</li>
+<li><p><a href="http://swaywm.org/">Sway</a>, <a href="https://github.com/WillPower3309/swayfx">Swayfx</a>
+</p>
+</li>
+<li><p><a href="https://github.com/DreamMaoMao/mangowc">Mangowc</a>
+</p>
+</li>
+<li><p><a href="https://hypr.land/">Hyprland</a>
+</p>
+</li>
+</ol>
+</li>
+<li><p>Bars:
+</p>
+<ol><li><p><a href="https://github.com/Alexays/Waybar">Waybar</a>
+</p>
+</li>
+<li><p><a href="https://github.com/noctalia-dev/noctalia-shell">Noctalia shell</a>
+</p>
+</li>
+<li><p><a href="https://github.com/AvengeMedia/DankMaterialShell">DankMaterial shell</a>
+</p>
+</li>
+<li><p><a href="https://github.com/caelestia-dots/shell">Caelestia shell</a>
+</p>
+</li>
+<li><p><a href="https://github.com/debuggyo/Exo">Exo</a>
+</p>
+</li>
+</ol>
+</li>
+<li><p>Resources:
+</p>
+<ol><li><p><a href="https://github.com/natpen/awesome-wayland">Awesome wayland</a>
+</p>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="nav"><a href="/utilities/default/">PREV</a><a href="/buildsystems/default/">RANDOM</a><a href="/documentcomp/default/">NEXT</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>
