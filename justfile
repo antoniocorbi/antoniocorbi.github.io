@@ -25,7 +25,7 @@ alias b := build
     git push -u origin one
 
 # Serve
-@serve:
+@serve: build
     echo "Open http://127.0.0.1:4000"
     basic-http-server ./public
 
