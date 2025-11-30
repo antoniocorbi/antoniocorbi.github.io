@@ -16,18 +16,6 @@ generator/ for Emacs.
 Tony Aldon's ~one~ package leverages [[https://orgmode.org/][Org Mode]] to easily publish a blog
 from a single ~org file~. Nothing more, nothing less.
 
-* Utilities
-:PROPERTIES:
-:ONE: one-default-doc
-:CUSTOM_ID: /utilities/default/
-:END:
-
-1. [[https://devdocs.io][devdocs]]
-2. [[https://devhints.io][devhints]]
-3. [[https://codewiki.google/][Code Wiki]]
-4. [[https://dashboardicons.com][dashboard icons]]
-5. [[https://fontawesome.com/][fontawesome]]
-6. [[https://www.nerdfonts.com/][nerdfonts]]
 * Wayland compositors and tools
 :PROPERTIES:
 :ONE: one-default-doc
@@ -194,6 +182,9 @@ from a single ~org file~. Nothing more, nothing less.
 ** Julia
 1. [[https://julialang.org/][Homepage]]
 
+** C
+1. [[https://github.com/inputsh/awesome-c][Awesome C]]
+
 * Editors
 :PROPERTIES:
 :ONE: one-default-doc
@@ -239,6 +230,20 @@ from a single ~org file~. Nothing more, nothing less.
 :ONE: one-default-doc
 :CUSTOM_ID: /gnulinux/default/
 :END:
+
+** Utilities and resources
+1. [[https://devdocs.io][devdocs]]
+2. [[https://devhints.io][devhints]]
+3. [[https://codewiki.google/][Code Wiki]]
+4. Fonts and icons
+   1. [[https://dashboardicons.com][dashboard icons]]
+   2. [[https://fontawesome.com/][fontawesome]]
+   3. [[https://www.nerdfonts.com/][nerdfonts]]
+5. [[https://github.com/dylanaraps/pure-bash-bible][Pure bash bible]]
+6. [[https://github.com/alebcay/awesome-shell][Awesome Shell]]
+7. [[https://awesome.re/][Awesome: a curated list of CS resources]]
+8. [[https://github.com/sindresorhus/awesome-chatgpt][Awesome ChatGPT]]
+9. [[https://github.com/inputsh/awesome-linux][Awesome Linux]]
 
 ** Kernel
 1. [[https://www.kernel.org][Homepage]]
