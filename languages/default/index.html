@@ -1,33 +1,40 @@
 <!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Programming languages</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/wayland/default/">Wayland compositors and tools</a></li><li><a href="/documentcomp/default/">Document composers</a></li><li><a href="/buildsystems/default/">Build system generators</a></li><li><a href="/buildautomation/default/">Build automation tools</a></li><li><a href="/languages/default/">Programming languages</a></li><li><a href="/editors/default/">Editors</a></li><li><a href="/gnulinux/default/">GNU/Linux</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Antonio Corbi's Homepage</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Antonio Corbi's Homepage</a></li><li><a href="/wayland/default/">Wayland compositors and tools</a></li><li><a href="/documentcomp/default/">Document composers</a></li><li><a href="/buildsystems/default/">Build system generators</a></li><li><a href="/buildautomation/default/">Build automation tools</a></li><li><a href="/languages/default/">Programming languages</a></li><li><a href="/editors/default/">Editors</a></li><li><a href="/gnulinux/default/">GNU/Linux</a></li><li><a href="/nix/default/">Nix and NixOS things</a></li></ul></div><article><div class="title"><h1>Programming languages</h1></div><div class="toc"><div><div>Table of content</div><div>
 <ul>
-<li><a href="#one-19bd7c10b2">Rust</a>
+<li><a href="#one-ef5052056f">Rust</a>
 <ul>
-<li><a href="#one-50eecbc764">Language</a></li>
-<li><a href="#one-5fb8e433f1">Docs</a></li>
-<li><a href="#one-11f5bd73f2">Tools</a></li>
-<li><a href="#one-f085c6402a">Resources</a></li>
-<li><a href="#one-938de3c45f">Patterns</a></li>
+<li><a href="#one-dab12880b2">Language</a></li>
+<li><a href="#one-a367516720">Docs</a></li>
+<li><a href="#one-7e1165c859">Tools</a></li>
+<li><a href="#one-ee40b72fff">Resources</a></li>
+<li><a href="#one-4a2bc19890">Learning resources</a>
+<ul>
+<li><a href="#one-e2a0d983e9">[[https://rustlings.rust-lang.org/][Rustlings]]</a></li>
+<li><a href="#one-820a972bcd">[[https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8][Let's Get Rusty: The Rust Lang Book (YouTube)]]</a></li>
+<li><a href="#one-69ac07a813">[[https://www.youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v][Smart Contract Programmer: Learn Rust (YouTube)]]</a></li>
 </ul>
 </li>
-<li><a href="#one-3d0ee46ba1">Emacs-Lisp</a></li>
-<li><a href="#one-b81c887880">Haskell</a></li>
-<li><a href="#one-ea8ba8edf7">D</a>
-<ul>
-<li><a href="#one-c3c7b17ebb">Dlang</a></li>
-<li><a href="#one-a69c9276cb">OpenD</a></li>
+<li><a href="#one-799ce7f016">Patterns</a></li>
 </ul>
 </li>
-<li><a href="#one-44daf2c379">Vala</a></li>
-<li><a href="#one-ce62a8ab73">Ada</a></li>
-<li><a href="#one-c60c453f95">Pascal</a></li>
-<li><a href="#one-25c08c5787">Zig</a></li>
-<li><a href="#one-1a333a88be">Nim</a></li>
-<li><a href="#one-9dd12fe993">Julia</a></li>
-<li><a href="#one-dd21321883">C</a></li>
+<li><a href="#one-91dce626ec">Emacs-Lisp</a></li>
+<li><a href="#one-c0a8092f29">Haskell</a></li>
+<li><a href="#one-9a07f0a240">D</a>
+<ul>
+<li><a href="#one-c80bb84f20">Dlang</a></li>
+<li><a href="#one-aa2f843d72">OpenD</a></li>
+</ul>
+</li>
+<li><a href="#one-bc24631e89">Vala</a></li>
+<li><a href="#one-76c78b8ece">Ada</a></li>
+<li><a href="#one-fdc2425465">Pascal</a></li>
+<li><a href="#one-2d343e54fb">Zig</a></li>
+<li><a href="#one-edd2904e83">Nim</a></li>
+<li><a href="#one-7d5dd35c66">Julia</a></li>
+<li><a href="#one-8ad029ba8a">C</a></li>
 </ul>
 </div></div></div><div></div>
 
-<div><h2 id="one-19bd7c10b2">Rust</h2><div><h3 id="one-50eecbc764">Language</h3><div><ol><li><p><a href="http://www.rust-lang.org/">Homepage</a>
+<div><h2 id="one-ef5052056f">Rust</h2><div><h3 id="one-dab12880b2">Language</h3><div><ol><li><p><a href="http://www.rust-lang.org/">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://play.rust-lang.org/">Online compiler</a>
@@ -40,7 +47,7 @@
 </div>
 </div>
 
-<div><h3 id="one-5fb8e433f1">Docs</h3><div><ol><li><p><a href="https://doc.rust-lang.org/stable/book/index.html">The Book</a>
+<div><h3 id="one-a367516720">Docs</h3><div><ol><li><p><a href="https://doc.rust-lang.org/stable/book/index.html">The Book</a>
 </p>
 </li>
 <li><p><a href="https://doc.rust-lang.org/std/">Standard lib book</a>
@@ -80,7 +87,7 @@
 </div>
 </div>
 
-<div><h3 id="one-11f5bd73f2">Tools</h3><div><ol><li><p><a href="https://rust-lang.github.io/rustup/">Rustup</a>
+<div><h3 id="one-7e1165c859">Tools</h3><div><ol><li><p><a href="https://rust-lang.github.io/rustup/">Rustup</a>
 </p>
 </li>
 <li><p><a href="https://doc.rust-lang.org/cargo/">Cargo</a>
@@ -96,7 +103,7 @@
 </div>
 </div>
 
-<div><h3 id="one-f085c6402a">Resources</h3><div><ol><li><p><a href="https://lib.rs/">Index of rust libraries and applications</a>
+<div><h3 id="one-ee40b72fff">Resources</h3><div><ol><li><p><a href="https://lib.rs/">Index of rust libraries and applications</a>
 </p>
 </li>
 <li><p><a href="https://crates.io/">Crates IO</a>
@@ -115,7 +122,11 @@
 </div>
 </div>
 
-<div><h3 id="one-938de3c45f">Patterns</h3><div><ol><li><p><a href="https://rust-unofficial.github.io/patterns/">Rust Design Patterns</a>
+<div><h3 id="one-4a2bc19890">Learning resources</h3><div><h4 id="one-e2a0d983e9">[[https://rustlings.rust-lang.org/][Rustlings]]</h4></div>
+<div><h4 id="one-820a972bcd">[[https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8][Let's Get Rusty: The Rust Lang Book (YouTube)]]</h4></div>
+<div><h4 id="one-69ac07a813">[[https://www.youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v][Smart Contract Programmer: Learn Rust (YouTube)]]</h4></div>
+</div>
+<div><h3 id="one-799ce7f016">Patterns</h3><div><ol><li><p><a href="https://rust-unofficial.github.io/patterns/">Rust Design Patterns</a>
 </p>
 </li>
 <li><p><a href="https://github.com/fadeevab/design-patterns-rust">GOF examples in Rust</a>
@@ -126,7 +137,7 @@
 </div>
 </div>
 
-<div><h2 id="one-3d0ee46ba1">Emacs-Lisp</h2><div><ol><li><p><a href="https://www.gnu.org/software/emacs/manual/eintr.html">Introduction to Programming in Emacs Lisp</a>
+<div><h2 id="one-91dce626ec">Emacs-Lisp</h2><div><ol><li><p><a href="https://www.gnu.org/software/emacs/manual/eintr.html">Introduction to Programming in Emacs Lisp</a>
 </p>
 </li>
 <li><p><a href="http://learnxinyminutes.com/docs/es-es/elisp-es/">Learn elisp in Y Minutes</a>
@@ -148,7 +159,7 @@
 </div>
 </div>
 
-<div><h2 id="one-b81c887880">Haskell</h2><div><ol><li><p><a href="https://www.haskell.org/">Homepage</a>
+<div><h2 id="one-c0a8092f29">Haskell</h2><div><ol><li><p><a href="https://www.haskell.org/">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://planet.haskell.org/">Planet Haskell</a>
@@ -170,7 +181,7 @@
 </div>
 </div>
 
-<div><h2 id="one-ea8ba8edf7">D</h2><div><h3 id="one-c3c7b17ebb">Dlang</h3><div><ol><li><p><a href="https://dlang.org">Homepage</a>
+<div><h2 id="one-9a07f0a240">D</h2><div><h3 id="one-c80bb84f20">Dlang</h3><div><ol><li><p><a href="https://dlang.org">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://dlang.org/spec/spec.html">Spec</a>
@@ -189,7 +200,7 @@
 </div>
 </div>
 
-<div><h3 id="one-a69c9276cb">OpenD</h3><div><ol><li><p><a href="https://opendlang.org/index.html">Homepage</a>
+<div><h3 id="one-aa2f843d72">OpenD</h3><div><ol><li><p><a href="https://opendlang.org/index.html">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://dpldocs.info/this-week-in-arsd/Blog.html">Blog</a>
@@ -200,7 +211,7 @@
 </div>
 </div>
 
-<div><h2 id="one-44daf2c379">Vala</h2><div><ol><li><p><a href="https://vala.dev/">Homepage</a>
+<div><h2 id="one-bc24631e89">Vala</h2><div><ol><li><p><a href="https://vala.dev/">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://gnome.pages.gitlab.gnome.org/vala/manual/index.html">Vala Reference Manual</a>
@@ -213,7 +224,7 @@
 </div>
 </div>
 
-<div><h2 id="one-ce62a8ab73">Ada</h2><div><ol><li><p><a href="https://ada-lang.io/">Homepage</a>
+<div><h2 id="one-76c78b8ece">Ada</h2><div><ol><li><p><a href="https://ada-lang.io/">Homepage</a>
 </p>
 </li>
 <li><p><a href="https://www.adacore.com/">Adacore</a>
@@ -235,42 +246,42 @@
 </div>
 </div>
 
-<div><h2 id="one-c60c453f95">Pascal</h2><div><ol><li><p><a href="https://freepascal.org/">Free Pascal</a>
+<div><h2 id="one-fdc2425465">Pascal</h2><div><ol><li><p><a href="https://freepascal.org/">Free Pascal</a>
 </p>
 </li>
 </ol>
 </div>
 </div>
 
-<div><h2 id="one-25c08c5787">Zig</h2><div><ol><li><p><a href="https://ziglang.org/">Homepage</a>
+<div><h2 id="one-2d343e54fb">Zig</h2><div><ol><li><p><a href="https://ziglang.org/">Homepage</a>
 </p>
 </li>
 </ol>
 </div>
 </div>
 
-<div><h2 id="one-1a333a88be">Nim</h2><div><ol><li><p><a href="https://nim-lang.org/">Homepage</a>
+<div><h2 id="one-edd2904e83">Nim</h2><div><ol><li><p><a href="https://nim-lang.org/">Homepage</a>
 </p>
 </li>
 </ol>
 </div>
 </div>
 
-<div><h2 id="one-9dd12fe993">Julia</h2><div><ol><li><p><a href="https://julialang.org/">Homepage</a>
+<div><h2 id="one-7d5dd35c66">Julia</h2><div><ol><li><p><a href="https://julialang.org/">Homepage</a>
 </p>
 </li>
 </ol>
 </div>
 </div>
 
-<div><h2 id="one-dd21321883">C</h2><div><ol><li><p><a href="https://github.com/inputsh/awesome-c">Awesome C</a>
+<div><h2 id="one-8ad029ba8a">C</h2><div><ol><li><p><a href="https://github.com/inputsh/awesome-c">Awesome C</a>
 </p>
 </li>
 </ol>
 </div>
 </div>
 
-<div class="nav"><a href="/buildautomation/default/">PREV</a><a href="/documentcomp/default/">RANDOM</a><a href="/editors/default/">NEXT</a></div></article></div></body><script>
+<div class="nav"><a href="/buildautomation/default/">PREV</a><a href="/editors/default/">RANDOM</a><a href="/editors/default/">NEXT</a></div></article></div></body><script>
 function sidebarShow() {
   if (window.innerWidth < 481)
     document.getElementById('sidebar-left').style.width = '75vw';
