@@ -229,6 +229,9 @@ from a single ~org file~. Nothing more, nothing less.
 ** Helix
 1. [[https://helix-editor.com/][Homepage]]
 
+** Fresh
+1. [[https://github.com/sinelaw/fresh][Homepage]]
+
 * GNU/Linux
 :PROPERTIES:
 :ONE: one-default-doc
