@@ -27,6 +27,7 @@ from a single ~org file~. Nothing more, nothing less.
   2. [[http://swaywm.org/][Sway]], [[https://github.com/WillPower3309/swayfx][Swayfx]]
   3. [[https://github.com/DreamMaoMao/mangowc][Mangowc]]
   4. [[https://hypr.land/][Hyprland]]
+  5. [[https://github.com/noctalia-dev/umbriel][Umbriel]]
 - Bars:
   1. [[https://github.com/Alexays/Waybar][Waybar]]
   2. [[https://github.com/noctalia-dev/noctalia-shell][Noctalia shell]]
